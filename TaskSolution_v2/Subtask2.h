@@ -31,7 +31,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 
 using namespace cv;
-
 using namespace std;
 
 const int width = 640;
@@ -73,8 +72,6 @@ GLfloat PhysicsTransformMatrix[4][16] = {{  0.9381,	 -0.2686,	  0.2180,	 -1.4903
 
 // OpenGL Variables
 long depthToRgbMap[width*height*2];
-
-
 bool init(int argc, char* argv[]);
 void drawDepthCameraData();
 void draw();
