@@ -180,7 +180,6 @@ bool init(int argc, char* argv[]) {
 
 int main(int argc, char * argv[]) {
     if (!init(argc, argv)) return 1;
-//    if (!initKinect()) return 1;
     
     //Enable OpenGL Multithreading
     CGLError err;// = 0;
@@ -192,7 +191,6 @@ int main(int argc, char * argv[]) {
         // Multithreaded execution may not be available
         // Insert your code to take appropriate action
     }
-    
     
     // OpenGL setup
     glClearColor(0,0,0,0);
@@ -215,7 +213,6 @@ int main(int argc, char * argv[]) {
     gluLookAt(0,0,0,0,0,1,0,1,0);
     
     // Main loop
-//    execute();
     glutMainLoop();
     return 0;
 }
