@@ -8,10 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		697A15281AA6A67600590B1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 697A15271AA6A67600590B1F /* main.cpp */; };
+		697A15301AA6A6A400590B1F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697A152E1AA6A6A400590B1F /* GLUT.framework */; };
+		697A15311AA6A6A400590B1F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697A152F1AA6A6A400590B1F /* OpenGL.framework */; };
+		69A7B4751AA9417D006C7C28 /* libGLEW.1.11.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A7B4741AA9417D006C7C28 /* libGLEW.1.11.0.dylib */; };
+		69A7B4761AA941AE006C7C28 /* libGLEW.1.11.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A7B4741AA9417D006C7C28 /* libGLEW.1.11.0.dylib */; };
+		69CE85AE1AA6BAAF00BF923E /* libopencv_core.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE85AC1AA6BAAF00BF923E /* libopencv_core.2.4.10.dylib */; };
+		69CE85AF1AA6BAAF00BF923E /* libopencv_highgui.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE85AD1AA6BAAF00BF923E /* libopencv_highgui.2.4.10.dylib */; };
+		69CE85B11AA6BB1600BF923E /* libopencv_imgproc.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE85B01AA6BB1600BF923E /* libopencv_imgproc.2.4.10.dylib */; };
+		69CE85C41AA7991B00BF923E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CE85C31AA7991B00BF923E /* main.cpp */; };
+		69CE85CB1AA7A86B00BF923E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE85C91AA7A86B00BF923E /* GLUT.framework */; };
+		69CE85CC1AA7A86B00BF923E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE85CA1AA7A86B00BF923E /* OpenGL.framework */; };
+		69CE85CF1AA7B34600BF923E /* LoadPng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69CE85CD1AA7B34600BF923E /* LoadPng.cpp */; };
+		69CE86041AA7C6F400BF923E /* libpng16.16.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE86031AA7C6F400BF923E /* libpng16.16.dylib */; };
+		69CE86061AA80A5200BF923E /* libopencv_core.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE85AC1AA6BAAF00BF923E /* libopencv_core.2.4.10.dylib */; };
+		69CE86071AA80A5200BF923E /* libopencv_highgui.2.4.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE85AD1AA6BAAF00BF923E /* libopencv_highgui.2.4.10.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		697A15221AA6A67600590B1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		69CE85BF1AA7991B00BF923E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,6 +48,41 @@
 /* Begin PBXFileReference section */
 		697A15241AA6A67600590B1F /* TaskSolution_v1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskSolution_v1; sourceTree = BUILT_PRODUCTS_DIR; };
 		697A15271AA6A67600590B1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		697A152E1AA6A6A400590B1F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		697A152F1AA6A6A400590B1F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		699EBF1C1AA8AED30003BB6C /* Color1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Color1.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Color1.png; sourceTree = "<group>"; };
+		699EBF1D1AA8AED30003BB6C /* Color2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Color2.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Color2.png; sourceTree = "<group>"; };
+		699EBF1E1AA8AED30003BB6C /* Color3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Color3.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Color3.png; sourceTree = "<group>"; };
+		699EBF1F1AA8AED30003BB6C /* Color4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Color4.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Color4.png; sourceTree = "<group>"; };
+		699EBF201AA8AED30003BB6C /* Depth1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Depth1.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Depth1.png; sourceTree = "<group>"; };
+		699EBF211AA8AED30003BB6C /* Depth2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Depth2.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Depth2.png; sourceTree = "<group>"; };
+		699EBF221AA8AED30003BB6C /* Depth3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Depth3.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Depth3.png; sourceTree = "<group>"; };
+		699EBF231AA8AED30003BB6C /* Depth4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Depth4.png; path = ../../../../../Downloads/rgbd_dataset_freiburg3_large_cabinet/Depth4.png; sourceTree = "<group>"; };
+		69A7B4741AA9417D006C7C28 /* libGLEW.1.11.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.1.11.0.dylib; path = ../../../../../../../usr/local/Cellar/glew/1.11.0/lib/libGLEW.1.11.0.dylib; sourceTree = "<group>"; };
+		69CE85AC1AA6BAAF00BF923E /* libopencv_core.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.10.dylib; path = "../../../../OpenCV/opencv-2.4.10/build/lib/libopencv_core.2.4.10.dylib"; sourceTree = "<group>"; };
+		69CE85AD1AA6BAAF00BF923E /* libopencv_highgui.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.10.dylib; path = "../../../../OpenCV/opencv-2.4.10/build/lib/libopencv_highgui.2.4.10.dylib"; sourceTree = "<group>"; };
+		69CE85B01AA6BB1600BF923E /* libopencv_imgproc.2.4.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.10.dylib; path = "../../../../OpenCV/opencv-2.4.10/build/lib/libopencv_imgproc.2.4.10.dylib"; sourceTree = "<group>"; };
+		69CE85B21AA6C84900BF923E /* Subtask1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subtask1.h; sourceTree = "<group>"; };
+		69CE85C11AA7991B00BF923E /* TaskSolution_v2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskSolution_v2; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CE85C31AA7991B00BF923E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		69CE85C81AA7A5DC00BF923E /* Subtask2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subtask2.h; sourceTree = "<group>"; };
+		69CE85C91AA7A86B00BF923E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = DEVELOPER_DIR; };
+		69CE85CA1AA7A86B00BF923E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		69CE85CD1AA7B34600BF923E /* LoadPng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadPng.cpp; sourceTree = "<group>"; };
+		69CE85CE1AA7B34600BF923E /* LoadPng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadPng.h; sourceTree = "<group>"; };
+		69CE86031AA7C6F400BF923E /* libpng16.16.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng16.16.dylib; path = /usr/local/Cellar/libpng/1.6.16/lib/libpng16.16.dylib; sourceTree = "<absolute>"; };
+		69DAA11E1AA8F420002AEBD7 /* frame-0.color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-0.color.png"; sourceTree = "<group>"; };
+		69DAA11F1AA8F420002AEBD7 /* frame-0.depth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-0.depth.png"; sourceTree = "<group>"; };
+		69DAA1201AA8F420002AEBD7 /* frame-0.pose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "frame-0.pose.txt"; sourceTree = "<group>"; };
+		69DAA1211AA8F420002AEBD7 /* frame-1.color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-1.color.png"; sourceTree = "<group>"; };
+		69DAA1221AA8F420002AEBD7 /* frame-1.depth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-1.depth.png"; sourceTree = "<group>"; };
+		69DAA1231AA8F420002AEBD7 /* frame-1.pose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "frame-1.pose.txt"; sourceTree = "<group>"; };
+		69DAA1241AA8F420002AEBD7 /* frame-2.color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-2.color.png"; sourceTree = "<group>"; };
+		69DAA1251AA8F420002AEBD7 /* frame-2.depth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-2.depth.png"; sourceTree = "<group>"; };
+		69DAA1261AA8F420002AEBD7 /* frame-2.pose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "frame-2.pose.txt"; sourceTree = "<group>"; };
+		69DAA1271AA8F420002AEBD7 /* frame-3.color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-3.color.png"; sourceTree = "<group>"; };
+		69DAA1281AA8F420002AEBD7 /* frame-3.depth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame-3.depth.png"; sourceTree = "<group>"; };
+		69DAA1291AA8F420002AEBD7 /* frame-3.pose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "frame-3.pose.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +90,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CE85B11AA6BB1600BF923E /* libopencv_imgproc.2.4.10.dylib in Frameworks */,
+				697A15301AA6A6A400590B1F /* GLUT.framework in Frameworks */,
+				69CE85AE1AA6BAAF00BF923E /* libopencv_core.2.4.10.dylib in Frameworks */,
+				69A7B4751AA9417D006C7C28 /* libGLEW.1.11.0.dylib in Frameworks */,
+				697A15311AA6A6A400590B1F /* OpenGL.framework in Frameworks */,
+				69CE85AF1AA6BAAF00BF923E /* libopencv_highgui.2.4.10.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CE85BE1AA7991B00BF923E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A7B4761AA941AE006C7C28 /* libGLEW.1.11.0.dylib in Frameworks */,
+				69CE86061AA80A5200BF923E /* libopencv_core.2.4.10.dylib in Frameworks */,
+				69CE86071AA80A5200BF923E /* libopencv_highgui.2.4.10.dylib in Frameworks */,
+				69CE86041AA7C6F400BF923E /* libpng16.16.dylib in Frameworks */,
+				69CE85CB1AA7A86B00BF923E /* GLUT.framework in Frameworks */,
+				69CE85CC1AA7A86B00BF923E /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +118,10 @@
 		697A151B1AA6A67600590B1F = {
 			isa = PBXGroup;
 			children = (
+				69CE86011AA7B8EA00BF923E /* Framework2 */,
+				69CE85851AA6B20E00BF923E /* Framework */,
 				697A15261AA6A67600590B1F /* TaskSolution_v1 */,
+				69CE85C21AA7991B00BF923E /* TaskSolution_v2 */,
 				697A15251AA6A67600590B1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				697A15241AA6A67600590B1F /* TaskSolution_v1 */,
+				69CE85C11AA7991B00BF923E /* TaskSolution_v2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +139,72 @@
 			isa = PBXGroup;
 			children = (
 				697A15271AA6A67600590B1F /* main.cpp */,
+				69CE85B21AA6C84900BF923E /* Subtask1.h */,
 			);
 			path = TaskSolution_v1;
+			sourceTree = "<group>";
+		};
+		69CE85851AA6B20E00BF923E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				69CE85B01AA6BB1600BF923E /* libopencv_imgproc.2.4.10.dylib */,
+				69CE85AC1AA6BAAF00BF923E /* libopencv_core.2.4.10.dylib */,
+				69CE85AD1AA6BAAF00BF923E /* libopencv_highgui.2.4.10.dylib */,
+				697A152E1AA6A6A400590B1F /* GLUT.framework */,
+				697A152F1AA6A6A400590B1F /* OpenGL.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		69CE85C21AA7991B00BF923E /* TaskSolution_v2 */ = {
+			isa = PBXGroup;
+			children = (
+				69CE85E81AA7B85000BF923E /* Asset */,
+				69CE85C31AA7991B00BF923E /* main.cpp */,
+				69CE85C81AA7A5DC00BF923E /* Subtask2.h */,
+				69CE85CD1AA7B34600BF923E /* LoadPng.cpp */,
+				69CE85CE1AA7B34600BF923E /* LoadPng.h */,
+			);
+			path = TaskSolution_v2;
+			sourceTree = "<group>";
+		};
+		69CE85E81AA7B85000BF923E /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				69DAA11E1AA8F420002AEBD7 /* frame-0.color.png */,
+				69DAA11F1AA8F420002AEBD7 /* frame-0.depth.png */,
+				69DAA1201AA8F420002AEBD7 /* frame-0.pose.txt */,
+				69DAA1211AA8F420002AEBD7 /* frame-1.color.png */,
+				69DAA1221AA8F420002AEBD7 /* frame-1.depth.png */,
+				69DAA1231AA8F420002AEBD7 /* frame-1.pose.txt */,
+				69DAA1241AA8F420002AEBD7 /* frame-2.color.png */,
+				69DAA1251AA8F420002AEBD7 /* frame-2.depth.png */,
+				69DAA1261AA8F420002AEBD7 /* frame-2.pose.txt */,
+				69DAA1271AA8F420002AEBD7 /* frame-3.color.png */,
+				69DAA1281AA8F420002AEBD7 /* frame-3.depth.png */,
+				69DAA1291AA8F420002AEBD7 /* frame-3.pose.txt */,
+				699EBF1C1AA8AED30003BB6C /* Color1.png */,
+				699EBF1D1AA8AED30003BB6C /* Color2.png */,
+				699EBF1E1AA8AED30003BB6C /* Color3.png */,
+				699EBF1F1AA8AED30003BB6C /* Color4.png */,
+				699EBF201AA8AED30003BB6C /* Depth1.png */,
+				699EBF211AA8AED30003BB6C /* Depth2.png */,
+				699EBF221AA8AED30003BB6C /* Depth3.png */,
+				699EBF231AA8AED30003BB6C /* Depth4.png */,
+			);
+			name = Asset;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		69CE86011AA7B8EA00BF923E /* Framework2 */ = {
+			isa = PBXGroup;
+			children = (
+				69A7B4741AA9417D006C7C28 /* libGLEW.1.11.0.dylib */,
+				69CE86031AA7C6F400BF923E /* libpng16.16.dylib */,
+				69CE85C91AA7A86B00BF923E /* GLUT.framework */,
+				69CE85CA1AA7A86B00BF923E /* OpenGL.framework */,
+			);
+			name = Framework2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +227,23 @@
 			productReference = 697A15241AA6A67600590B1F /* TaskSolution_v1 */;
 			productType = "com.apple.product-type.tool";
 		};
+		69CE85C01AA7991B00BF923E /* TaskSolution_v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CE85C51AA7991B00BF923E /* Build configuration list for PBXNativeTarget "TaskSolution_v2" */;
+			buildPhases = (
+				69CE85BD1AA7991B00BF923E /* Sources */,
+				69CE85BE1AA7991B00BF923E /* Frameworks */,
+				69CE85BF1AA7991B00BF923E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskSolution_v2;
+			productName = TaskSolution_v2;
+			productReference = 69CE85C11AA7991B00BF923E /* TaskSolution_v2 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +255,9 @@
 				TargetAttributes = {
 					697A15231AA6A67600590B1F = {
 						CreatedOnToolsVersion = 6.2;
+					};
+					69CE85C01AA7991B00BF923E = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
@@ -109,6 +274,7 @@
 			projectRoot = "";
 			targets = (
 				697A15231AA6A67600590B1F /* TaskSolution_v1 */,
+				69CE85C01AA7991B00BF923E /* TaskSolution_v2 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +285,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				697A15281AA6A67600590B1F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CE85BD1AA7991B00BF923E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CE85C41AA7991B00BF923E /* main.cpp in Sources */,
+				69CE85CF1AA7B34600BF923E /* LoadPng.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -193,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -202,6 +377,19 @@
 		697A152C1AA6A67600590B1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/usr/local/Cellar/glfw3/3.0.4/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					"/Users/Jay/Development/OpenCV/opencv-2.4.10/build/lib",
+					/usr/local/Cellar/glfw3/3.0.4/lib,
+					/usr/local/Cellar/glew/1.11.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,7 +397,65 @@
 		697A152D1AA6A67600590B1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					/usr/local/Cellar/glfw3/3.0.4/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(inherited)",
+					"/Users/Jay/Development/OpenCV/opencv-2.4.10/build/lib",
+					/usr/local/Cellar/glfw3/3.0.4/lib,
+					/usr/local/Cellar/glew/1.11.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69CE85C61AA7991B00BF923E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libpng/1.6.16/lib,
+					/usr/local/Cellar/glew/1.11.0/lib,
+					"/Users/Jay/Development/OpenCV/opencv-2.4.10/build/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69CE85C71AA7991B00BF923E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libpng/1.6.16/lib,
+					/usr/local/Cellar/glew/1.11.0/lib,
+					"/Users/Jay/Development/OpenCV/opencv-2.4.10/build/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -232,6 +478,16 @@
 				697A152D1AA6A67600590B1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CE85C51AA7991B00BF923E /* Build configuration list for PBXNativeTarget "TaskSolution_v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CE85C61AA7991B00BF923E /* Debug */,
+				69CE85C71AA7991B00BF923E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
