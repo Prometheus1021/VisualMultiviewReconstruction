@@ -4,10 +4,8 @@
 //
 //  Created by Jay on 3/4/15.
 //  Copyright (c) 2015 Jay. All rights reserved.
-//
 
 #include "Subtask2.h"
-
 
 void rotateCamera() {
     static double angle = 0.;
