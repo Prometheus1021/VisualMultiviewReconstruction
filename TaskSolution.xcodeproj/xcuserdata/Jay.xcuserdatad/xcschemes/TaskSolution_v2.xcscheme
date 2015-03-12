@@ -17,7 +17,7 @@
                BlueprintIdentifier = "69CE85C01AA7991B00BF923E"
                BuildableName = "TaskSolution_v2"
                BlueprintName = "TaskSolution_v2"
-               ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+               ReferencedContainer = "container:TaskSolution.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "69CE85C01AA7991B00BF923E"
             BuildableName = "TaskSolution_v2"
             BlueprintName = "TaskSolution_v2"
-            ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+            ReferencedContainer = "container:TaskSolution.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "69CE85C01AA7991B00BF923E"
             BuildableName = "TaskSolution_v2"
             BlueprintName = "TaskSolution_v2"
-            ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+            ReferencedContainer = "container:TaskSolution.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,7 +74,7 @@
             BlueprintIdentifier = "69CE85C01AA7991B00BF923E"
             BuildableName = "TaskSolution_v2"
             BlueprintName = "TaskSolution_v2"
-            ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+            ReferencedContainer = "container:TaskSolution.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "697A15231AA6A67600590B1F"
-               BuildableName = "TaskSolution_v1"
-               BlueprintName = "TaskSolution_v1"
-               ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+               BuildableName = "TaskSolution"
+               BlueprintName = "TaskSolution"
+               ReferencedContainer = "container:TaskSolution.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "697A15231AA6A67600590B1F"
-            BuildableName = "TaskSolution_v1"
-            BlueprintName = "TaskSolution_v1"
-            ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+            BuildableName = "TaskSolution"
+            BlueprintName = "TaskSolution"
+            ReferencedContainer = "container:TaskSolution.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "697A15231AA6A67600590B1F"
-            BuildableName = "TaskSolution_v1"
-            BlueprintName = "TaskSolution_v1"
-            ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+            BuildableName = "TaskSolution"
+            BlueprintName = "TaskSolution"
+            ReferencedContainer = "container:TaskSolution.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "697A15231AA6A67600590B1F"
-            BuildableName = "TaskSolution_v1"
-            BlueprintName = "TaskSolution_v1"
-            ReferencedContainer = "container:TaskSolution_v1.xcodeproj">
+            BuildableName = "TaskSolution"
+            BlueprintName = "TaskSolution"
+            ReferencedContainer = "container:TaskSolution.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

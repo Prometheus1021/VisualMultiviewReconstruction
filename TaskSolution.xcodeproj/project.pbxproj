@@ -46,7 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		697A15241AA6A67600590B1F /* TaskSolution_v1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskSolution_v1; sourceTree = BUILT_PRODUCTS_DIR; };
+		697A15241AA6A67600590B1F /* TaskSolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TaskSolution; sourceTree = BUILT_PRODUCTS_DIR; };
 		697A15271AA6A67600590B1F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		697A152E1AA6A6A400590B1F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		697A152F1AA6A6A400590B1F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -120,8 +120,8 @@
 			children = (
 				69CE86011AA7B8EA00BF923E /* Framework2 */,
 				69CE85851AA6B20E00BF923E /* Framework */,
-				697A15261AA6A67600590B1F /* TaskSolution_v1 */,
-				69CE85C21AA7991B00BF923E /* TaskSolution_v2 */,
+				697A15261AA6A67600590B1F /* Task1_VideoStreaming */,
+				69CE85C21AA7991B00BF923E /* Task2_MultiviewCalibration_Visualization */,
 				697A15251AA6A67600590B1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,18 +129,19 @@
 		697A15251AA6A67600590B1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				697A15241AA6A67600590B1F /* TaskSolution_v1 */,
+				697A15241AA6A67600590B1F /* TaskSolution */,
 				69CE85C11AA7991B00BF923E /* TaskSolution_v2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		697A15261AA6A67600590B1F /* TaskSolution_v1 */ = {
+		697A15261AA6A67600590B1F /* Task1_VideoStreaming */ = {
 			isa = PBXGroup;
 			children = (
 				697A15271AA6A67600590B1F /* main.cpp */,
 				69CE85B21AA6C84900BF923E /* Subtask1.h */,
 			);
+			name = Task1_VideoStreaming;
 			path = TaskSolution_v1;
 			sourceTree = "<group>";
 		};
@@ -156,7 +157,7 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
-		69CE85C21AA7991B00BF923E /* TaskSolution_v2 */ = {
+		69CE85C21AA7991B00BF923E /* Task2_MultiviewCalibration_Visualization */ = {
 			isa = PBXGroup;
 			children = (
 				69CE85E81AA7B85000BF923E /* Asset */,
@@ -165,6 +166,7 @@
 				69CE85CD1AA7B34600BF923E /* LoadPng.cpp */,
 				69CE85CE1AA7B34600BF923E /* LoadPng.h */,
 			);
+			name = Task2_MultiviewCalibration_Visualization;
 			path = TaskSolution_v2;
 			sourceTree = "<group>";
 		};
@@ -210,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		697A15231AA6A67600590B1F /* TaskSolution_v1 */ = {
+		697A15231AA6A67600590B1F /* TaskSolution */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 697A152B1AA6A67600590B1F /* Build configuration list for PBXNativeTarget "TaskSolution_v1" */;
+			buildConfigurationList = 697A152B1AA6A67600590B1F /* Build configuration list for PBXNativeTarget "TaskSolution" */;
 			buildPhases = (
 				697A15201AA6A67600590B1F /* Sources */,
 				697A15211AA6A67600590B1F /* Frameworks */,
@@ -222,9 +224,9 @@
 			);
 			dependencies = (
 			);
-			name = TaskSolution_v1;
+			name = TaskSolution;
 			productName = TaskSolution_v1;
-			productReference = 697A15241AA6A67600590B1F /* TaskSolution_v1 */;
+			productReference = 697A15241AA6A67600590B1F /* TaskSolution */;
 			productType = "com.apple.product-type.tool";
 		};
 		69CE85C01AA7991B00BF923E /* TaskSolution_v2 */ = {
@@ -261,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 697A151F1AA6A67600590B1F /* Build configuration list for PBXProject "TaskSolution_v1" */;
+			buildConfigurationList = 697A151F1AA6A67600590B1F /* Build configuration list for PBXProject "TaskSolution" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -273,7 +275,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				697A15231AA6A67600590B1F /* TaskSolution_v1 */,
+				697A15231AA6A67600590B1F /* TaskSolution */,
 				69CE85C01AA7991B00BF923E /* TaskSolution_v2 */,
 			);
 		};
@@ -390,7 +392,7 @@
 					/usr/local/Cellar/glfw3/3.0.4/lib,
 					/usr/local/Cellar/glew/1.11.0/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TaskSolution;
 			};
 			name = Debug;
 		};
@@ -410,7 +412,7 @@
 					/usr/local/Cellar/glfw3/3.0.4/lib,
 					/usr/local/Cellar/glew/1.11.0/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TaskSolution;
 			};
 			name = Release;
 		};
@@ -462,7 +464,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		697A151F1AA6A67600590B1F /* Build configuration list for PBXProject "TaskSolution_v1" */ = {
+		697A151F1AA6A67600590B1F /* Build configuration list for PBXProject "TaskSolution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				697A15291AA6A67600590B1F /* Debug */,
@@ -471,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		697A152B1AA6A67600590B1F /* Build configuration list for PBXNativeTarget "TaskSolution_v1" */ = {
+		697A152B1AA6A67600590B1F /* Build configuration list for PBXNativeTarget "TaskSolution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				697A152C1AA6A67600590B1F /* Debug */,

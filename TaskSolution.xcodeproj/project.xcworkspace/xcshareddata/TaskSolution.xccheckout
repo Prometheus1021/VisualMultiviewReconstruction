@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>40705DC3-FE3C-4B32-8CA8-334DB5B92D4D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TaskSolution</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>650E71C4D2DD4492B2BEAD02A5AB32D21CE39DDA</key>
+		<string>https://github.com/Prometheus1021/VisualMultiviewReconstruction.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TaskSolution.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>650E71C4D2DD4492B2BEAD02A5AB32D21CE39DDA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Prometheus1021/VisualMultiviewReconstruction.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>650E71C4D2DD4492B2BEAD02A5AB32D21CE39DDA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>650E71C4D2DD4492B2BEAD02A5AB32D21CE39DDA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VisualMultiviewReconstruction</string>
+		</dict>
+	</array>
+</dict>
+</plist>
