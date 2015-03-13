@@ -1,13 +1,19 @@
-# Athor: Ying-Chieh Huang
+# Author: Ying-Chieh Huang
 # VisualMultiviewReconstruction
 
 The Intention: 
-	To explore the possibility to build up a 3D scene reconstruction application as a native iOS mobile app and Unity plugin. Build up my knowledge, problem-solving skill, C++ ability for this topic, which involves 3 different displines in computer vision, multithreading parallel programming, and computer graphic. 
+	It is a personal project for building up 3D scene reconstruction application and plugin for Mac, iOS, and Unity. Build up my own knowledge, problem-solving skill, C++ coding ability for this topic, which involves 3 different displines in computer vision, parallel programming, and computer graphic.  
 
 The Objective:
+	Be able to reconstruct static scene separated from dynamic scene.
+	
+Subtasks:
+	Coming Soon
 
 Task Planning:
+	Coming Soon
 
 Schedule Planning:
+	Coming Soon
 
 
