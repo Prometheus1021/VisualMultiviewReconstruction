@@ -8,7 +8,13 @@ The Objective:
 	Be able to reconstruct static scene separated from dynamic scene.
 	
 Subtasks:
-	Coming Soon
+	- Bur effect - OpenCL
+	- Depth of View effect - OpenGL, OpenCL
+	- ML task: Multi-view Calibration out of FoV - OpenCV, OpenCL
+	- AP task: Surface Reconstruction and Visualization - OpenGL, OpenCL
+	- Simulated Dataset Collection Interface - Unity
+	- Unity plugin for mobile and desktop - Unity, iOS, Mac
+
 
 Task Planning:
 	Coming Soon
